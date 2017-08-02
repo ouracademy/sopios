@@ -1,0 +1,368 @@
+#about>.container>.row img{
+	width:100%;
+	display:block;
+	height:320px;
+}
+#about .container .row .section-title h2{
+	text-align:center;
+}
+
+.container .row .about-text{
+	text-align: justify;
+}
+#services .row a{
+	color:rgba(127,127,127,1);
+}
+
+#services .row div img{
+	width:130px;
+	height:130px;
+}
+
+#resume .row .timeline>li img{
+	width:270px;
+	height:200px;
+}
+#resume h4,#resume p{
+	text-align: justify;
+}
+
+#programacion img, #participar img{
+	margin:auto;
+}
+
+
+#participar p{
+	text-align: justify;
+}
+.sliderp{
+	width:100%;
+	height: 700px;
+	background: rgb(145, 10, 71);
+	z-index: 99999;
+}
+
+.intro-text2{
+	margin-top: 70px;
+	padding:2%;
+	text-align: center;
+ 	/*display: table;*/
+ 	width: 100%;
+ 	height: auto;
+ 	color: #FBFBFB;
+ 	background-color: #FBFBFB;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	background-size: cover;
+ 	-o-background-size: cover;
+}
+.intro3 {
+	margin:auto;
+		width: 80%;
+		padding: 2%;
+}
+.intro3 .intro-text2 h2{
+	margin-top:15px;
+	line-height: 130%;
+	color:rgba(14, 30, 51, 1);
+	font-weight: bolder;
+}
+.intro-text2>p{
+	color:rgb(70, 150, 182);
+	margin-top: 2%;
+	font-size: 22px;
+	text-align: center;
+}
+.intro-text2>img{
+	margin:auto;
+}
+.menu-lateral2{
+	margin-top: 0px;
+	transition: All ease-out 0.2s;
+}
+
+ .menu-lateral2{
+	background:#2c3e50;
+	width:100%;
+	overflow: hidden;
+	text-align: center;
+	border-bottom: solid 5px #2c3e50;
+}
+
+.menu-lateral-fixed2:hover{
+	opacity:1;
+}
+
+.menu-lateral-fixed2{
+	position: fixed;
+	margin-top: 95px;
+	z-index:1000;
+	box-shadow:5px 3px 5px rgba(0, 0, 0, 0.5);
+	opacity:0.15;
+	transition:All ease 0.7s;
+}
+ .menu-lateral2 li{
+	display:inline-table;
+	padding: 0.5%;
+	border-right: solid 3px rgb(178, 184, 180);
+}
+ .menu-lateral2 li a{
+	text-decoration:none;
+	color:white;
+}
+
+ .menu-lateral2 li a:hover{
+	outline: 0;
+	color: #E87E04;
+}
+
+#sede a{
+	color:rgb(113, 113, 113);
+}
+
+
+#sede, #comite{
+	margin:40px;
+}
+nav .menu-principal{
+	margin-top:20px;
+}
+
+#sede iframe{
+	width:800px;
+	height:320px;
+}
+
+.row >div >h2{
+	color:rgb(70, 150, 182);
+	margin-bottom: 20px;
+	margin-top:40px;
+}
+.row ul{
+	margin-left: 20px;
+}
+.row .listado1{
+	line-height: 180%;
+}
+
+.row .listado2{
+	line-height: 150%;
+}
+.row .titulo-centro{
+	text-align: center;
+	font-size: 22px;
+	margin-top:40px;
+	color:rgb(49, 116, 125);
+}
+.row img{
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+.sede> iframe{
+	text-align: center;
+	margin-left: 20%;
+}
+nav ul .login{
+ position: absolute;
+ top:20%;
+ left: 94%;
+}
+nav ul .login i{
+ margin-right: 5px;
+}
+
+.comite >ul{
+	width:45%;
+	float:left;
+	display: none;
+}
+.body-body{
+	margin-top: 250px;
+}
+ #pasos{
+	 margin-top: 70px;
+	 padding: 60px 0;
+	 background: url(../img/services-bg.jpg);
+	 background-size: cover;
+	 background-attachment: fixed;
+ }
+
+ #pasos h4{
+	color:rgba(14, 30, 51, 1);
+ }
+ #pasos .service{
+	 margin: 1% 1%;
+ }
+ #pasos .img-circle {
+ 	width: 100px;
+ 	height: 100px;
+ }
+ #pasos .numero {
+	 width: 100px;
+	 height: 100px;
+	 background: rgba(14, 30, 51, 1);
+	 margin: auto;
+	 border-radius: 50%;
+ }
+ #pasos .numero  p{
+	margin: auto;
+	font-size: 60px;
+	vertical-align: middle;
+	color:rgb(240, 240, 240);
+ }
+ #pasos .socio{
+	 background: rgb(134, 38, 77);
+ }
+ #pasos .socio p{
+	 margin: auto;
+ 	font-size: 20px;
+ 	vertical-align: middle;
+ 	color:rgb(2480, 240, 240);
+	padding: 3%;
+ }
+ #pasos .socio img{
+	width: 250px;
+	height: 200px;
+ }
+#pasos p>a{
+	font-size: 18px;
+	padding: 1%;
+}
+
+.navbar .logo{
+	margin: 0px;
+	margin-left: -15%;
+	width: 70%;
+	max-width:300px;
+	text-align: center;
+	margin-bottom:-12px;
+}
+
+.navbar .logo a{
+	font-size: 40px;
+	color:rgb(254, 254, 254);
+	font-weight: bolder;
+	letter-spacing: 15px;
+	display: block;
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	text-decoration:none;
+	
+}
+.navbar .logo hr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	size:5px;
+}
+.navbar .logo p{
+	font-size: 12px;
+	color:rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.intro2 {
+	display: table;
+	width: 100%;
+	height: 620px;
+	background: url(../img/intro-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro2 .intro-text h1{
+	color: rgb(23, 55, 111);
+	font-size: 60px;
+	margin-top: 40%;
+	padding: 2%;
+}
+
+#page-scroll span{
+	transition: All ease 3s;
+	display: none;
+}
+.page-scroll-top{
+		color:rgb(165, 185, 200);
+	display: block;
+	transition: All ease 1s;
+}
+#portfolio{
+	margin-top:140px;
+}
+.portfolio-item img{
+	width: 350px;
+	height: 200px;
+}
+#copios2009, #copios2010, #copios2011,#copios2013, #copios2014,#copios2015{
+	display:none;
+	text-align: center;
+}
+
+#fecha img{
+	margin:auto;
+	text-align:center;
+}
+.requisitos .about-text, .beneficios .about-text {
+	padding:5%;
+	margin-top:10%;	
+	background:rgba(214, 210, 189, 0.3);
+	font-style:italic;
+}
+
+.requisitos ul li{
+font-size:14px;
+}
+
+.contenedor-principal{
+	height:100%;
+	width:100%;
+	display:table;
+}
+.contenedor-cuerpo{
+	margin-bottom:70px;
+	display:table-row;
+	height:100%;
+}
+
+@media(max-width:768px) {
+.navbar .nav .login {
+	left: 75%;
+	top:10%;
+	}
+.navbar .logo {
+		margin-left: 0px;
+		top:10%;
+	}
+#programacion ul li{
+	text-align: justify;
+}
+#areast ul li{
+	text-align: justify;
+}
+#sede p{
+	text-align: justify;
+}
+#sede iframe{
+	width:400px;
+	height:300px;
+}
+}
+
+
+@media(max-width:468px) {
+.navbar .nav .login {
+	top:20%;
+	}
+	
+#sede iframe{
+	width:220px;
+	height:150px;
+}
+.intro3 .intro-text2 h2{
+	font-size:24px;
+}
+
+}

@@ -1,0 +1,96 @@
+
+.row.row-gap-small
+{margin-top:15px}
+.row.row-gap-medium
+{margin-top:30px}
+.row.row-gap-large
+{margin-top:45px}
+.row.row-gap-huge
+{margin-top:60px}
+
+
+.img-bordered {
+    border: 1px solid #f3f3f3;
+}
+
+
+.img-responsive, .thumbnail>img, .thumbnail a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.icon-level {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-left: 28px;
+    background-color: #dcdcdc;
+    position: relative;
+}
+.icon-level.icon-level-1:after {
+    background-color: #666;
+}
+.icon-level:before {
+    height: 12px;
+    left: -14px;
+}
+.icon-level:before, .icon-level:after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 12px;
+    background-color: inherit;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.icon-level:after {
+    height: 12px;
+    left: -28px;
+}
+.icon-level:before, .icon-level:after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 12px;
+    background-color: inherit;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1.h-slim, h2.h-slim, h3.h-slim, h4.h-slim, h5.h-slim, h6.h-slim, .h1.h-slim, .h2.h-slim, .h3.h-slim, .h4.h-slim, .h5.h-slim, .h6.h-slim {
+    margin: 0;
+}
+
+.badge-soon {
+    background-color: #1f8fc1;
+}
+
+.badge-squared {
+    border-radius: 2px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #999;
+    border-radius: 10px;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
