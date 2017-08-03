@@ -23,12 +23,6 @@ class WelcomeController extends Controller {
 	{ 
 		return view('visitPages.index');
 	}
-	
-	
-	public function eventosCopios2015()
-    {
-        return view('visitPages.copios2015');
-    }
     
     public function eventos()
     {
@@ -43,5 +37,10 @@ class WelcomeController extends Controller {
     public function unete()
     {
         return view('visitPages.unete');
+    }
+
+	public function copios()
+    {
+        return view('copios.index');
     }
 }
