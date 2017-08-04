@@ -29,12 +29,6 @@ Route::group(['prefix' => 'copios/2017'], function() {
     Route::get('entrega-de-trabajos', ['as' => 'call-for-contributions', 'uses' => 'CopiosController@callForContributions']);
 });
 
-//Directive
-// Route::group(['namespace' => 'Directive','prefix' => 'directive'], function()
-// {
-//     Route::resource('events', 'EventController');
-// });
-
 //TODO ver login y entrada a sistema...
 //Route::get('home', 'HomeController@index');
 
