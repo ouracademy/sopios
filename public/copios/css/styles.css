@@ -483,3 +483,12 @@ a.credits p {
         float: none;
     }
 }    
+
+/* call for contributions */
+.area {
+    padding-top: 10px;
+}
+
+.area li {
+    padding-top: 5px;
+}
