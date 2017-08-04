@@ -2,16 +2,10 @@
         <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" />
         <link rel="stylesheet" type="text/css"	href="{{asset('fonts/font-awesome/css/font-awesome.css')}}" />
         
-        <!-- Slider
-            ================================================== -->
-        <link href="{{asset('css/owl.carousel.css')}}" rel="stylesheet"	media="screen" />
-        <link href="{{asset('css/owl.theme.css')}}" rel="stylesheet"	media="screen" />
-        
         <!-- Stylesheet
             ================================================== -->
         <link rel="stylesheet" type="text/css"	href="{{asset('css/style.css')}}" />
         <link rel="stylesheet" type="text/css"	href="{{asset('css/style2.css')}}" />
-        <link rel="stylesheet" type="text/css"	href="{{asset('css/prettyPhoto.css')}}" />
         
         <!-- FAVICON================================================= -->
         <link href="{{asset('img/favicon.ico')}}" rel="shortcut icon" type="image/x-icon">
