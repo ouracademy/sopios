@@ -38,9 +38,4 @@ class WelcomeController extends Controller {
     {
         return view('visitPages.unete');
     }
-
-	public function copios()
-    {
-        return view('copios.index');
-    }
 }
