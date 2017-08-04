@@ -102,6 +102,10 @@ class CopiosController extends Controller {
 		return view('copios.about')->withAreas($areas);
 	}
 
+	public function schedule() {
+		return view('copios.schedule');
+	}
+
 	public function callForContributions() {
 		return view('copios.callForContributions');
 	}
