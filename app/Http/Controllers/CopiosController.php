@@ -17,7 +17,7 @@ class CopiosController extends Controller {
 	// 	return view('copios.about');
 	// }
 
-	// public function callForContributions() {
-	// 	return view('copios.callForContributions');
-	// }
+	public function callForContributions() {
+		return view('copios.callForContributions');
+	}
 }

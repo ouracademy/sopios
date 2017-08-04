@@ -25,7 +25,7 @@ Route::post('/contactenos', ['as' => 'contact_store', 'uses' => 'AboutController
 Route::group(['prefix' => 'copios/2017'], function() {
     Route::get('/', ['as' => 'index', 'uses' => 'CopiosController@index']);
     //Route::get('que-es', ['as' => 'what-is', 'uses' => 'CopiosController@about']);
-    //Route::get('entrega-de-trabajos', ['as' => 'call-for-contributions', 'uses' => 'CopiosController@callForContributions']);
+    Route::get('entrega-de-trabajos', ['as' => 'call-for-contributions', 'uses' => 'CopiosController@callForContributions']);
 });
 
 ///Route::get('/copios/2017',   ['as' => 'copios', 'uses' => 'WelcomeController@copios']);
