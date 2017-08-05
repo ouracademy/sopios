@@ -27,7 +27,7 @@ h2:after {
   height: 4px;
   content: "";
   position: absolute;
-  background-color: #E57D69;
+  background-color: #fb9238;
 }
 
 #the-schedule h2, #the-schedule h3 {
@@ -51,7 +51,7 @@ h3 {
 }
 
 .title-red {
-  color: #E57D69;
+  color: #fb9238;
 }
 
 .day-schedule-title h3 {
@@ -68,7 +68,7 @@ h4 {
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: #E57D69;
+  color: #fb9238;
   font-size: 1.5em;
 }
 
@@ -111,11 +111,11 @@ strong {
 }
 
 a {
-  color: #E57D69;
+  color: #fb9238;
 }
 
 a:hover {
-  color: #E57D69;
+  color: #fb9238;
   text-decoration: underline;
 }
 
@@ -150,13 +150,13 @@ a:hover {
   -webkit-box-shadow: none;
   background-image: none;
   border: 2px solid #772515;
-  background: #E57D69;
+  background: #fb9238;
   text-shadow: none;
   font-size: 1.125em;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-  background: #e88c7a;
+  background: #f79f55;
   border: 2px solid #772515;
 }
 
@@ -219,7 +219,7 @@ h1 {
   margin: 20px 0; }
 
 .speaker-submit {
-  background-color: #E57D69;
+  background-color: #fb9238;
   height: auto;
   width: 100%; }
 
@@ -272,14 +272,14 @@ section {
   border-bottom: 2px solid rgba(86, 72, 70, 0.3); }
 
 #the-schedule {
-  background: #E57D69; }
+  background: #f79f55; }
 
 #meet-speakers, #hotels, #areas, #payment {
   background: #f9f9f9; }
 
 .payment thead {
   font-weight: 500;
-  color: #E57D69;}
+  color: #fb9238;}
 
 .illustration-activities {
   margin: 20px 0; }
@@ -306,7 +306,7 @@ section {
   border-bottom: 1px solid rgba(101, 62, 54, 0.3); }
 
 .event-name {
-  background-image: url("./assets/img/schedule-event-dot.svg");
+  background-image: url("../img/schedule-event-dot.svg");
   padding-left: 40px;
   background-size: 16px 16px;
   background-repeat: no-repeat; }
@@ -372,7 +372,7 @@ a.credits {
   padding: 10px 0; }
 
 a.credits:hover {
-  border: 1px solid #E57D69;
+  border: 1px solid #fb9238;
   text-decoration: none;
   width: 220px; }
 
@@ -463,7 +463,7 @@ a.credits p {
 }
 
 .nav > li > a:hover, .nav .active {
-    border-bottom: 4px solid #E57D69;
+    border-bottom: 4px solid #fb9238;
     background-color: inherit;
 }
 
@@ -495,4 +495,9 @@ a.credits p {
 
 .area li {
     padding-top: 5px;
+}
+
+::selection {
+  background-color: #fb9c4b;
+  color: white;
 }
