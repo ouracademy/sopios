@@ -12,10 +12,6 @@
 						<p>Sociedad Peruana de Investigación Operativa y Sistemas</p>
 					</div>
 				</div>
-				<div id="page-scroll">
-					<a href="#page-top" class="page-scroll"><span
-						class="icon-arrow-up"></span></a>
-				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div

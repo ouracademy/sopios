@@ -5,14 +5,6 @@
                                   el desarrollo del país.')
 @section('content')
 
-	<div class="menu-lateral2" id="menu-lateral2">
-		<ul>
-			<li><a href="#about" class="page-scroll">Mision-Vision</a></li>
-			<li><a href="#services" class="page-scroll">Directivos</a></li>
-			<li><a href="#resume" class="page-scroll">Nuestros Inicios</a></li>
-		</ul>
-	</div>
-
 	<!-- About Section -->
 	<div id="about">
 		<div class="container">
