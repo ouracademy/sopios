@@ -6,8 +6,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h3 class="title-red">Envio de trabajos</h3>
-                <p>Antes de enviar su resumen, recuerde que este deberá cumplir las <a href="assets/Bases para envío de trabajos.pdf"
-                        target="_blank">Bases para envio de trabajos</a> (use la <a href="assets/Plantilla para resumenes COPIOS-2017.pdf">Plantilla</a>                    como guía) y estar dentro de las <a href="/copios#areas">Áreas temáticas</a>.</p>
+                <p>Antes de enviar su resumen, recuerde que este deberá cumplir las <a href="{{asset("copios/Bases para envio de trabajos.pdf")}}" target="_blank"
+                        target="_blank">Bases para envio de trabajos</a> (use la <a href="{{asset("copios/Plantilla para resumenes COPIOS-2017.pdf")}}" target="_blank">Plantilla</a> como guía) y estar dentro de las <a href="{{url("copios/2017/que-es")."#areas"}}">Áreas temáticas</a>.</p>
                 <div class="call-to-action">
                     <a href="https://picatic.com/laracon-us-2017"><button type="button" class="btn btn-primary">Enviar resumen/trabajo</button></a>
                 </div>

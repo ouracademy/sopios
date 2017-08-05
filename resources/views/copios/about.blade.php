@@ -75,7 +75,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <div class="hotel-description">
-          <a href="" class="hotel-name">Directora de Programa</a>
+          <a href="" class="hotel-name">Jefe de Programa</a>
           <div class="hotel-distance"><strong>Dr. Rosa Delgadillo</strong> - UNMSM</div>
         </div>
       </div>

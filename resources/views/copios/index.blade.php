@@ -11,7 +11,7 @@
       <form class="card">
         <p class="text-center mb1.25"><strong>El congreso peruano más importante</strong> de investigación operativa y sistemas respaldados por ALIO, con
           más de 20 speakers y 4 internacionales!</p>
-        <a href="{{url('copios/2017/#payment')}}"><button type="button" class="btn btn-primary btn-lg btn-block">Compra tus entradas ya</button></a>
+        <a href="{{url('copios/2017/#payment')}}"><button type="button" class="btn btn-primary btn-lg btn-block">Participa ya!</button></a>
       </form>
     </div>
   </div>
@@ -123,21 +123,15 @@
 </section>
 <section id="sponsors">
   <div class="container-fluid">
-    <h2>Sponsors</h2>
-    <div class="row">
-      <div class="col-xs-12 col-sm-9">
-        <p>COPIOS no hubiera sido posible sin nuestros increibles sponsors. Si estas interesado en ser sponsor,
-          <a href="mailto:malvarezr1@unmsm.edu.pe">ponte en contacto</a>!</p>
-      </div>
-    </div>
+    <h2>Organizadores</h2>
     <div class="row">
       <div class="col-xs-12 col-sm-4">
-        <a href="http://matematicas.unmsm.edu.pe/" class="partner-logo-container">
+        <a href="http://matematicas.unmsm.edu.pe/" class="partner-logo-container" target="_blank">
           <div class="partner-logo partner-larajobs"></div>
         </a>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <a href="https://www.microsoft.com/es-pe/" class="partner-logo-container">
+        <a href="/" class="partner-logo-container" target="_blank">
           <div class="partner-logo partner-vehikl"></div>
         </a>
       </div>
