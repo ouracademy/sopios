@@ -6,13 +6,8 @@
     <div class="main-headline">
       <h1>COPIOS 2017</h1>
       <h3>Noviembre 6-8, 2017 | Lima</h3>
-      <div class="lead mb2">
-        Eficiencia, Calidad e Innovación para la competitividad</div>
-      <form class="card">
-        <p class="text-center mb1.25"><strong>El congreso peruano más importante</strong> de investigación operativa y sistemas respaldados por ALIO, con
-          más de 20 speakers y 4 internacionales!</p>
-        <a href="{{url('copios/2017/#payment')}}"><button type="button" class="btn btn-primary btn-lg btn-block">Participa ya!</button></a>
-      </form>
+      <!-- <div class="lead mb2">
+        Eficiencia, Calidad e Innovación para la competitividad</div> -->
     </div>
   </div>
 </div>

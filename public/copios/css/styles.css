@@ -90,7 +90,7 @@ p {
 
 .lead {
   font-size: 1.3em;
-  opacity: 0.6;
+  opacity: 0.9;
   margin-top: 1.25em;
   line-height: 1.75em;
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
@@ -192,10 +192,21 @@ a:hover {
 }
 
 .main-headline {
+  color: white;
   text-align: center;
   max-width: 620px;
-  margin: 50px auto;
+  margin: 150px auto;
 }
+
+h1 {
+  font-size: 5.25em;
+}
+
+.main-headline h3 {
+  background-color: rgba(226, 118, 25, 0.67);
+  font-size: 2.5em;
+}
+
 
 .speakers {
   padding-top: 20px; }
@@ -213,7 +224,7 @@ a:hover {
   width: 100%; }
 
 .header {
-  height: 950px;
+  height: 800px;
   padding-top: 56px;
   overflow: hidden;
   position: relative; }
@@ -223,8 +234,7 @@ a:hover {
   background-size: 1200px 950px;
   background-repeat: repeat;
   color: #fff;
-  background-position: center;
-  height: 950px; }
+  background-position: center; }
 
 .header-bg-image {
   background-size: 1200px 950px;
@@ -232,7 +242,6 @@ a:hover {
   color: #fff;
   background-position-x: center;
   background-position-y: 70px;
-  height: 950px;
   position: absolute;
   left: 0;
   right: 0;
@@ -243,20 +252,15 @@ a:hover {
   position: relative; }
 
 .header-bg-alt {
-  background-image: linear-gradient(-180deg, #F8F8EC 0%, #E2F6F9 100%);
-  background-size: 1200px 950px;
-  background-repeat: repeat;
-  color: #4e4e4e;
-  background-position: center;
-  height: 950px; }
+  height: 730px;
+  background-image: url("../img/background.jpg");
+  background-size: 100%;
+  background-position-y: -71px;
+  background-repeat: no-repeat; }
 
 .header-bg-image-alt {
-  background-size: 1200px 950px;
-  background-repeat: no-repeat, no-repeat;
-  color: #4e4e4e;
-  background-position-x: center;
-  background-position-y: 70px;
-  height: 950px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.12);
   position: absolute;
   left: 0;
   right: 0;
