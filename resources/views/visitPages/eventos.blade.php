@@ -47,22 +47,6 @@
 						<b>Ciudad:</b> Callao
 					</p>
 				</div>
-				<table class="table">
-					<thead>
-						<tr>
-							<th>Asistentes</th>
-							<th>Ponencias presentadas</th>
-							<th>Ponencias aprobadas</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class="active">
-							<td>300</td>
-							<td>90</td>
-							<td>65</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
 
 			<div id="copios2010">
@@ -82,22 +66,6 @@
 						<b>Ciudad:</b> Arequipa
 					</p>
 				</div>
-				<table class="table">
-					<thead>
-						<tr>
-							<th>Asistentes</th>
-							<th>Ponencias presentadas</th>
-							<th>Ponencias aprobadas</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class="active">
-							<td>400</td>
-							<td>110</td>
-							<td>90</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
 			<div id="copios2011">
 				<div class="row">
@@ -116,23 +84,10 @@
 					<p>
 						<b>Ciudad:</b> Lima
 					</p>
+					<p>
+						<b>Enlace:</b> <a href="http://congreso.pucp.edu.pe/copios/" target="_blank">COPIOS 2011</a>
+					</p>
 				</div>
-				<!-- <table class="table">
-				<thead>
-					<tr>
-						<th>Asistentes</th>
-						<th>Ponencias presentadas</th>
-						<th>Ponencias aprobadas</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="active">
-						<td>400</td>
-						<td>110</td>
-						<td>90</td>
-					</tr>
-				</tbody>
-			</table> -->
 			</div>
 
 			<div id="copios2013">
@@ -151,23 +106,10 @@
 					<p>
 						<b>Ciudad:</b> Trujillo
 					</p>
+					<p>
+						<b>Enlace:</b> <a href="http://copios2013.upnorte.edu.pe/" target="_blank">COPIOS 2013</a>
+					</p>
 				</div>
-				<!-- <table class="table">
-				<thead>
-					<tr>
-						<th>Asistentes</th>
-						<th>Ponencias presentadas</th>
-						<th>Ponencias aprobadas</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="active">
-						<td>400</td>
-						<td>110</td>
-						<td>90</td>
-					</tr>
-				</tbody>
-			</table> -->
 			</div>
 
 			<div id="copios2014">
@@ -188,22 +130,6 @@
 						<b>Ciudad:</b> Lima
 					</p>
 				</div>
-				<table class="table">
-					<thead>
-						<tr>
-							<th>Asistentes</th>
-							<th>Ponencias presentadas</th>
-							<th>Ponencias aprobadas</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class="active">
-							<td>300</td>
-							<td>140</td>
-							<td>96</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
 
 			<div id="copios2015">
@@ -224,7 +150,7 @@
 						<b>Ciudad:</b> Lima, San Miguel
 					</p>
 					<p>
-						<b>Enlace:</b> <a href="http://www3.upc.edu.pe/html/0/websites/Copios/index.html">COPIOS 2015</a>
+						<b>Enlace:</b> <a href="http://www3.upc.edu.pe/html/0/websites/Copios/index.html" target="_blank">COPIOS 2015</a>
 					</p>
 					<div class="space"></div>
 				</div>
@@ -248,6 +174,25 @@
 			
 			<div class="row">
 				<div class="portfolio-items">
+					<div class="col-sm-6 col-md-3 col-lg-3 web">
+						<div class="portfolio-item">
+							<div class="hover-bg">
+								<a href="/copios/2017">
+									<div class="hover-text">
+										<h4>Copios 2017</h4>
+										<small>Universidad Nacional Mayor de San Marcos<br />
+											Lima
+										</small>
+										<div class="clearfix"></div>
+										<i class="fa fa-search"></i>
+									</div>
+										<img src="" class="img-responsive" 
+										alt="Copios 2017" />
+								</a>
+								<p>Copios 2017, Lima</p>
+							</div>
+						</div>
+					</div>
 					<div class="col-sm-6 col-md-3 col-lg-3 web">
 						<div class="portfolio-item">
 							<div class="hover-bg">
@@ -341,7 +286,7 @@
 								<a href="#copios2009" rel="prettyPhoto">
 									<div class="hover-text">
 										<h4>Copios 2009</h4>
-										<small>Universidad Nacional Mayor de San Marcos(UNMSM)<br />
+										<small>Universidad Nacional Federico Villareal(UNFV)<br />
 											Callao
 										</small>
 										<div class="clearfix"></div>
@@ -350,38 +295,6 @@
 									alt="Copios 2009" />
 								</a>
 								<p>Copios 2009, Callao</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 branding app">
-						<div class="portfolio-item">
-							<div class="hover-bg">
-								<a href="img/events/7.jpg" rel="prettyPhoto">
-									<div class="hover-text">
-										<h4>Taller año</h4>
-										<small>Lugar taller</small>
-										<div class="clearfix"></div>
-										<i class="fa fa-search"></i>
-									</div> <img src="img/events/7.jpg" class="img-responsive"
-									alt="Taller" />
-								</a>
-								<p>Taller año, Lugar</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 app">
-						<div class="portfolio-item">
-							<div class="hover-bg">
-								<a href="img/events/8.jpg" rel="prettyPhoto">
-									<div class="hover-text">
-										<h4>Conferencia año</h4>
-										<small>Lugar</small>
-										<div class="clearfix"></div>
-										<i class="fa fa-search"></i>
-									</div> <img src="img/events/8.jpg" class="img-responsive"
-									alt="Conferencia" />
-								</a>
-								<p>Conferencia año, Lugar</p>
 							</div>
 						</div>
 					</div>
