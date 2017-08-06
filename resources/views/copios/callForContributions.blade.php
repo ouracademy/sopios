@@ -9,7 +9,7 @@
                 <p>Antes de enviar su resumen, recuerde que este deberá cumplir las <a href="{{asset("copios/Bases para envio de trabajos.pdf")}}" target="_blank"
                         target="_blank">Bases para envio de trabajos</a> (use la <a href="{{asset("copios/Plantilla para resumenes COPIOS-2017.pdf")}}" target="_blank">Plantilla</a> como guía) y estar dentro de las <a href="{{url("copios/2017/que-es")."#areas"}}">Áreas temáticas</a>.</p>
                 <div class="call-to-action">
-                    <a href="https://picatic.com/laracon-us-2017"><button type="button" class="btn btn-primary">Enviar resumen/trabajo</button></a>
+                    <a href="https://easychair.org/conferences/?conf=copios2017" target="_blank"><button type="button" class="btn btn-primary">Enviar resumen/trabajo</button></a>
                 </div>
                 <h3 class="title-red">Publicaciones</h3>
                 <h5>MEMORIAS</h5>

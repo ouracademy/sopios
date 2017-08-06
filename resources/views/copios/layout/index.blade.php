@@ -34,7 +34,7 @@
             <div class="container-fluid">
                 <div class="legal">
                     <small>© COPIOS. All rights reserved.</small>
-                    <small>Contáctanos en <a href="mailto:malvarezr1@unmsm.edu.pe">malvarezr1@unmsm.edu.pe</a>.</small>
+                    <small>Contáctanos en <a href="mailto:copios@sopios.org.pe">copios@sopios.org.pe</a></small>
                 </div>
                 <a href="http://businessideasgroup.com.pe/" class="credits">
                     <div class="developed-by-logo"></div>
