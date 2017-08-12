@@ -26,7 +26,7 @@ Route::group(['prefix' => 'copios/2017'], function() {
     Route::get('/', ['as' => 'copios', 'uses' => 'CopiosController@index']);
     Route::get('que-es', ['as' => 'what-is', 'uses' => 'CopiosController@about']);
     Route::get('programa', ['as' => 'schedule', 'uses' => 'CopiosController@schedule']);
-    Route::get('entrega-de-trabajos', ['as' => 'call-for-contributions', 'uses' => 'CopiosController@callForContributions']);
+    Route::get('llamada-a-trabajos', ['as' => 'call-for-contributions', 'uses' => 'CopiosController@callForContributions']);
 });
 
 //TODO ver login y entrada a sistema...

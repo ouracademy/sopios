@@ -16,7 +16,7 @@
         </li>
         <li><a href="{{ url('copios/2017/que-es') }}" class="{{ Request::is('copios/2017/que-es') ? 'active' : '' }}">COPIOS 2017</a></li>
         <li><a href="{{ url('copios/2017/programa') }}" class="{{ Request::is('copios/2017/programa') ? 'active' : '' }}">Programa</a></li>
-        <li><a href="{{ url('copios/2017/entrega-de-trabajos') }}" class="{{ Request::is('copios/2017/entrega-de-trabajos') ? 'active' : '' }}">Entrega de trabajos</a></li>
+        <li><a href="{{ url('copios/2017/llamada-a-trabajos') }}" class="{{ Request::is('copios/2017/llamada-a-trabajos') ? 'active' : '' }}">Llamada a trabajos</a></li>
       </ul>
     </div>
   </div>

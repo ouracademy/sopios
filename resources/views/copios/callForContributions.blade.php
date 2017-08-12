@@ -2,7 +2,7 @@
 @section('content')
 <section id="the-venue">
     <div class="container-fluid">
-        <h2>Entrega de trabajos</h2>
+        <h2>Llamada a trabajos</h2>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h3 class="title-red">Envio de trabajos</h3>
