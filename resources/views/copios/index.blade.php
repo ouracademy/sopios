@@ -18,7 +18,7 @@
     <div class="speakers">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="speaker-item"><img src="" class="speaker-img">
+          <div class="speaker-item"><img src="{{asset('copios/img/carmen-belderrain.jpg')}}" class="speaker-img">
             <h4><a href=""></a>Dra. Carmen Belderrain </h4>
             <h5>Instituto Tecnológico de Aeronáutica - ITA, Brasil</h5>
           </div>
@@ -33,7 +33,7 @@
         <div class="clearfix visible-xs"></div>
         <div class="clearfix visible-sm"></div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="speaker-item"><img src="" class="speaker-img">
+          <div class="speaker-item"><img src="{{asset('copios/img/alberto-gabay.jpg')}}" class="speaker-img">
             <h4><a href="">Dr. Alberto Gabay</a></h4>
             <h5>UFRJ, Brasil</h5>
           </div>
@@ -43,7 +43,8 @@
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="speaker-item"><img src="{{asset('copios/img/jaime-miranda.jpg')}}" class="speaker-img">
             <h4><a href="">Dr. Jaime Miranda</a></h4>
-            <h5>Presidente de Asociación Latino Iberoamericana de Investigación Operativa - ALIO, Universidad de Chile</h5>
+            <h5>Presidente de Asociación Latino Iberoamericana de Investigación Operativa - ALIO</h5>
+            <h5>Universidad de Chile</h5>
           </div>
         </div>
       </div>
