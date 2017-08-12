@@ -46,8 +46,8 @@
       <div class="col-xs-12 col-sm-6">
         <div class="hotel-description">
           <a href="" class="hotel-name">Director Administrativo Financiero</a>
-          <div class="hotel-distance"><strong>Sonia Castro Ynfantes</strong> - UNMSM</div>
-          <div class="hotel-class">scastroy@gmail.com</div>
+          <div class="hotel-distance"><strong>Erik Papa Quiroz</strong> - UNMSM</div>
+          <div class="hotel-class"></div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6">
@@ -67,7 +67,7 @@
       <div class="col-xs-12 col-sm-6">
         <div class="hotel-description">
           <a href="" class="hotel-name">Director de publicaciones y auspicios</a>
-          <div class="hotel-distance"><strong>Ricardo Lopez Guevara</strong></div>
+          <div class="hotel-distance"><strong>Erik Papa Quiroz</strong> - UNMSM</div>
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <div class="hotel-description">
-          <a href="" class="hotel-name">Jefe de Programa</a>
+          <a href="" class="hotel-name">Presidente</a>
           <div class="hotel-distance"><strong>Dr. Rosa Delgadillo</strong> - UNMSM</div>
         </div>
       </div>
@@ -121,7 +121,7 @@
       </div>
       <div class="col-xs-12 col-sm-6">
         <div class="hotel-description">
-          <div class="hotel-distance"><strong>Dr. Erick Papa</strong> - UNMSM</div>
+          <div class="hotel-distance"><strong>Dr. Erik Papa</strong> - UNMSM</div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6">
