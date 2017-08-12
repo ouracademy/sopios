@@ -1,5 +1,9 @@
 <?php namespace App\Http\Controllers;
 
+use App\Copios\Day;
+use App\Copios\Slot;
+use Carbon\Carbon;
+
 class CopiosController extends Controller {
 
 	public function __construct()
@@ -104,7 +108,39 @@ class CopiosController extends Controller {
 	}
 
 	public function schedule() {
-		return view('copios.schedule');
+		$days = [
+			new Day('Lunes 6', [
+				new Slot('7:30-8:00', 'Registro'),
+				new Slot('8:00-8:30', 'Inauguración'),
+				new Slot('8:30-9:30', 'Plenaria 1'),
+				new Slot('9:30-10:30', 'Descanso (Café)'),
+				new Slot('10:30-11:30', 'Sesiones Técnicas'),
+				new Slot('11:30-12:30', 'Sesiones Técnicas'),
+				new Slot('14:30-15:30', 'Sesiones Técnicas'),
+				new Slot('15:30-16:30', 'Sesiones Técnicas  1'),
+				new Slot('16:30-17:30', 'Descanso (Café)'),
+				new Slot('17:30-18:30', 'Plenaria 2')
+			]),
+			new Day('Martes 7', [
+				new Slot('8:30-9:30', 'Plenaria 3'),
+				new Slot('9:30-10:30', 'Descanso (Café)'),
+				new Slot('10:30-11:30', 'Sesiones Técnicas'),
+				new Slot('11:30-12:30', 'Sesiones Técnicas'),
+				new Slot('14:30-15:30', 'Mesa Redonda '),
+				new Slot('15:30-16:30', 'Mesa Redonda 2'),
+				new Slot('16:30-17:30', 'Descanso (Café)'),
+				new Slot('17:30-18:30', 'Plenaria 4'),
+				new Slot('19:00-21:00', 'Asamblea SOPIOS')
+			]),
+			new Day('Miercoles 8', [
+				new Slot('8:30-9:30', 'Sesiones Técnicas'),
+				new Slot('9:30-10:30', 'Sesiones Técnicas'),
+				new Slot('10:30-11:30', 'Sesiones Técnicas'),
+				new Slot('11:30-12:30', 'Clausura')
+			])
+		];
+
+		return view('copios.schedule')->withDays($days);
 	}
 
 	public function callForContributions() {

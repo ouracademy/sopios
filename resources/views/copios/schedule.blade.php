@@ -4,52 +4,20 @@
   <div class="container-fluid">
     <h2>Programa</h2>
     <div class="speakers">
-      <h3>Lunes 6</h3>
+      @foreach($days as $day)
+      <h3>{{$day->date}}</h3>
       <table class="table">
         <tbody>
+          @foreach($day->slots as $slot)
           <tr>
-            <td>7:30am</td>
-            <td>Registro</td>
+            <td>{{$slot->timePeriod}}</td>
+            <td>{{$slot->name}}</td>
           </tr>
-          <tr>
-            <td>8:00am</td>
-            <td>Inauguración</td>
-          </tr>
-          <tr>
-            <td>8:30am</td>
-            <td>Plenaria 1</td>
-          </tr>
-          <tr>
-            <td>9:30am</td>
-            <td>Descanso (Café)</td>
-          </tr>
+          @endforeach
         </tbody>
       </table>
-
-      <h3>Martes 7</h3>
-      <table class="table">
-        <tbody>
-          <tr>
-            <td>7:30am</td>
-            <td>Registro</td>
-          </tr>
-          <tr>
-            <td>8:00am</td>
-            <td>Inauguración</td>
-          </tr>
-          <tr>
-            <td>8:30am</td>
-            <td>Plenaria 1</td>
-          </tr>
-          <tr>
-            <td>9:30am</td>
-            <td>Descanso (Café)</td>
-          </tr>
-        </tbody>
-      </table>
-
       <br>
-
+      @endforeach
     </div>
   </div>
 </section>
