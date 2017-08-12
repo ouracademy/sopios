@@ -80,6 +80,7 @@ class CopiosController extends Controller {
 				[ 'name' => 'Grafos y Redes' ],
 				[ 'name' => 'Optimización lineal' ],
 				[ 'name' => 'Optimización no lineal' ],
+				[ 'name' => 'Optimización combinatoria' ],
 				[ 'name' => 'Programación Dinámica' ],
 				[ 'name' => 'Programación Estocástica' ],
 				[ 'name' => 'Programación Lineal Entera' ],
