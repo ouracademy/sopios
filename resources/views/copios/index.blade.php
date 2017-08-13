@@ -65,8 +65,7 @@
 <section id="payment">
   <div class="container-fluid">
     <h2>Formas de Pago</h2>
-    <p>El pago de la inscripción otorga el derecho de asistir a todas las sesiones técnicas y plenarias, mesas redondas. Se
-      entregará el programa del evento, CD con las presentaciones del evento.</p>
+    <p>El pago de la inscripción otorga el derecho de asistir a todas las sesiones técnicas y plenarias, mesas redondas.</p>
     <div class="row">
       <div class="col-xs-12 col-md-12">
         <table class="table payment">
@@ -79,40 +78,29 @@
           </thead>
           <tbody>
             <tr>
-              <td colspan="3"><strong>Autores y coautores</strong></td>
-            </tr>
-            <tr>
               <td>Socio SOPIOS</td>
-              <td>50</td>
-              <td>70</td>
+              <td>60</td>
+              <td>90</td>
             </tr>
             <tr>
               <td>Estudiantes de posgrado (**)</td>
-              <td>40</td>
-              <td>60</td>
-            </tr>
-            <tr>
-              <td>No socio</td>
-              <td>75</td>
-              <td>105</td>
-            </tr>
-            <tr>
-              <td colspan="3"><strong>Público en general</strong></td>
-            </tr>
-            <tr>
-              <td>Participantes</td>
-              <td>150</td>
-              <td>200</td>
+              <td>80</td>
+              <td>120</td>
             </tr>
             <tr>
               <td>Estudiantes de pregrado (**)</td>
-              <td>25</td>
-              <td>35</td>
+              <td>30</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>Público general</td>
+              <td>100</td>
+              <td>150</td>
             </tr>
           </tbody>
         </table>
-        <p>(*) Antes del 31 de agosto de 2017</p>
-        <p>(**) Los estudiantes universitarios deberán acreditar su condición con carta de presentación del centro de estudios</p>
+        <p>(*) Antes del 30/09</p>
+        <p>(**) Deberán presentar su carnet universitario o algún documento que acredite su condición</p>
       </div>
     </div>
   </div>
