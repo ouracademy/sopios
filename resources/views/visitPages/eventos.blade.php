@@ -44,7 +44,7 @@
 						Marcos(UNMSM)
 					</p>
 					<p>
-						<b>Ciudad:</b> Callao
+						<b>Ciudad:</b> Lima
 					</p>
 				</div>
 			</div>
@@ -154,22 +154,6 @@
 					</p>
 					<div class="space"></div>
 				</div>
-				<!--<table class="table">
-				<thead>
-					<tr>
-						<th>Asistentes</th>
-						<th>Ponencias presentadas</th>
-						<th>Ponencias aprobadas</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="active">
-						<td>300</td>
-						<td>140</td>
-						<td>96</td>
-					</tr>
-				</tbody>
-				</table>-->
 			</div>
 			
 			<div class="row">
@@ -286,15 +270,15 @@
 								<a href="#copios2009" rel="prettyPhoto">
 									<div class="hover-text">
 										<h4>Copios 2009</h4>
-										<small>Universidad Nacional Federico Villareal(UNFV)<br />
-											Callao
+										<small>Universidad Nacional Mayor de San Marcos(UNMSM)<br />
+											Lima
 										</small>
 										<div class="clearfix"></div>
 										<i class="fa fa-search"></i>
 									</div> <img src="img/events/1.jpg" class="img-responsive"
 									alt="Copios 2009" />
 								</a>
-								<p>Copios 2009, Callao</p>
+								<p>Copios 2009, Lima</p>
 							</div>
 						</div>
 					</div>
