@@ -64,6 +64,11 @@ h3 {
   margin: 20px 0;
 }
 
+.schedule-day p {
+  padding-top: 5px;
+  color: white;
+}
+
 h4 {
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
   font-style: normal;

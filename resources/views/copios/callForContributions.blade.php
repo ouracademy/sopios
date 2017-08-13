@@ -40,42 +40,38 @@
                         <div class="event-name">Convocatoria</div>
                     </li>
                     <li>
-                        <div class="schedule-time">30/07 - 30/08</div>
-                        <div class="event-name">Recepción de los resúmenes</div>
+                        <div class="schedule-time">30/07 - 15/09</div>
+                        <div class="event-name">Recepción de resúmenes</div>
                     </li>
                     <li>
-                        <div class="schedule-time">01/08</div>
-                        <div class="event-name">Inicio de recepción de solicitudes de inscripción</div>
+                        <div class="schedule-time">01/08 - 20/10</div>
+                        <div class="event-name">Inscripción (resúmenes aceptados)</div>
                     </li>
                     <li>
-                        <div class="schedule-time">01/08 - 15/08</div>
-                        <div class="event-name">Evaluación de los resúmenes</div>
+                        <div class="schedule-time">30/07 - 15/10</div>
+                        <div class="event-name">Evaluación de resúmenes</div>
                     </li>
                     <li>
-                        <div class="schedule-time">15/08</div>
-                        <div class="event-name">Notificación de aceptación de los resúmenes</div>
+                        <div class="schedule-time">15/08 - 17/09</div>
+                        <div class="event-name">Notificación de aceptación de resúmenes</div>
                     </li>
                     <li>
-                        <div class="schedule-time">30/08 - 30/09</div>
-                        <div class="event-name">Recepción de los resúmenes extendidos</div>
+                        <div class="schedule-time">01/09 - 18/10</div>
+                        <div class="event-name">Recepción de resúmenes extendidos (*)</div>
                     </li>
                     <li>
-                        <div class="schedule-time">05/10</div>
-                        <div class="event-name">Conformidad de recepción de los resúmenes extendidos</div>
-                    </li>
-                    <li>
-                        <div class="schedule-time">15/10</div>
-                        <div class="event-name">Final de recepción de solicitudes de inscripción</div>
-                    </li>
-                    <li>
-                        <div class="schedule-time">18/10</div>
-                        <div class="event-name">Divulgación del programa definitivo del congreso</div>
+                        <div class="schedule-time">25/10</div>
+                        <div class="event-name">Divulgación del programa (**)</div>
                     </li>
                     <li>
                         <div class="schedule-time">06/11 - 08/11</div>
-                        <div class="event-name">Realización del VII Congreso COPIOS</div>
+                        <div class="event-name">Realización de Congreso COPIOS 2017</div>
                     </li>
                 </ul>
+                <p>(*) Los resúmenes extendidos seleccionados serán publicados en la revista peruana de
+                    investigación de operaciones y sistemas</p>
+                <p>(**) Para que aparecer en el programa de COPIOS se requiere inscripción al congreso y 
+                    resumen extendido.</p>
             </div>
         </div>
     </div>
