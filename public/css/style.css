@@ -956,3 +956,33 @@ header .intro-text {
 	padding: 10px 100px 20px 20px;
 }
 }
+
+/* Nav */
+
+#main-navbar a {
+    text-transform: uppercase;
+}
+
+#main-navbar {
+	height: 60px;
+}
+
+.navbar-default, .navbar-collapse {
+	background-color: white;
+    border-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: black;
+	background-color: white;
+	border-bottom: 3px solid #E87E04;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding-top: 20px;
+		padding-bottom: 17px;
+	}
+}
