@@ -1,4 +1,9 @@
 @extends('copios.layout.index')
+@section('title', 'Inicio')
+@section('description', 
+'Bienvenido a COPIOS 2017, el congreso peruano más importante de investigación operativa 
+ y sistemas respaldado por SOPIOS')
+  
 @section('content')
 <div id="header-bg" class="header header-bg-alt">
   <div class="header-bg-image-alt"></div>

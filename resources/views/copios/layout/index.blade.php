@@ -2,22 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>COPIOS 2017</title>
+  <title>@yield('title') - COPIOS 2017</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <meta name="description" content="COPIOS 2017">
-
+	
+  <meta name="description" content="@yield('description')" />
+  
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="COPIOS 2017">
-  <meta name="twitter:description" content="COPIOS es el congreso peruano más importante de investigación operativa y sistemas respaldados por SOPIOS, ahora en su VII edición.">
+  <meta name="twitter:title" content="@yield('title') - COPIOS 2017">
+  <meta name="twitter:description" content="@yield('description')">
 
-  <meta property="og:description" content="COPIOS es el congreso peruano más importante de investigación operativa y sistemas respaldados por SOPIOS, ahora en su VII edición.">
-  <meta property="og:url" content="http://www.sopios.com/copios2017">
-  <meta property="og:title" content="COPIOS 2017">
+  <meta property="og:title" content="@yield('title') - COPIOS 2017">
+  <meta property="og:description" content="@yield('description')">
+  <meta property="og:image" content="{{asset('img/logo-sopios.png')}}" />
 
   <!-- TODO put all in angular-cli.json -->
   <link href="{{asset('packages/bootstrap/bootstrap.min.css')}}" rel="stylesheet">

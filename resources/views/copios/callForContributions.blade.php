@@ -1,4 +1,7 @@
 @extends('copios.layout.index')
+@section('title', 'Llamada a trabajos')
+@section('description', 
+'Bases de envio de trabajos, publicaciones y fechas importantes de COPIOS 2017') 
 @section('content')
 <section id="the-venue">
     <div class="container-fluid">

@@ -1,4 +1,9 @@
 @extends('copios.layout.index')
+@extends('copios.layout.index')
+@section('title', 'Que es')
+@section('description', 
+'Acerca de COPIOS - Congreso Peruano de Investigación de Operaciones y de Sistemas, sus Areas tematicas y Organizacion')
+ 
 @section('content')
 @include('copios.fragments.what-is')
 <section id="areas">

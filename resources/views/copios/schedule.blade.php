@@ -1,4 +1,7 @@
 @extends('copios.layout.index')
+@section('title', 'Programa')
+@section('description', 
+'Programa (schedule) de COPIOS 2017') 
 @section('content')
 <section id="science-fair">
   <div class="container-fluid">
