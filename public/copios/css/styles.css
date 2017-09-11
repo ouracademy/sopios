@@ -257,11 +257,22 @@ h1 {
   position: relative; }
 
 .header-bg-alt {
-  height: 730px;
-  background-image: url("../img/background.jpg");
-  background-size: 100%;
-  background-position-y: -71px;
-  background-repeat: no-repeat; }
+  background-image: url("../img/background.jpg");  
+  height: 500px;
+  background-size: 90rem;
+  background-position-y: -60px;
+  background-position-x: -89px;
+  background-repeat: no-repeat;
+}
+  
+@media (min-width: 768px) {
+  .header-bg-alt {
+    height: 730px;
+    background-size: 100%;
+    background-position-y: -71px;
+    background-position-x: 0px;
+  } 
+}
 
 .header-bg-image-alt {
   height: 100%;
