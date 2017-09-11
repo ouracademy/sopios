@@ -20,7 +20,7 @@
   <meta property="og:title" content="COPIOS 2017">
 
   <!-- TODO put all in angular-cli.json -->
-  <link href="{{asset('copios/packages/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('packages/bootstrap/bootstrap.min.css')}}" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('copios/packages/bootstrap-theme.min.css') }}">
 
   <link rel="stylesheet" type="text/css" href="{{asset('copios/css/styles.css')}}">
@@ -43,5 +43,7 @@
             </div>
         </section>
     </div>
+    <script type="text/javascript" src="{{asset('packages/jquery/jquery-1.11.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('packages/bootstrap/bootstrap.min.js')}}"></script>
 </body>
 </html>
