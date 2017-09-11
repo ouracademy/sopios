@@ -17,7 +17,7 @@
 
   <meta property="og:title" content="@yield('title') - COPIOS 2017">
   <meta property="og:description" content="@yield('description')">
-  <meta property="og:image" content="{{asset('img/logo-sopios.png')}}" />
+  <meta property="og:image" content="{{asset('copios/img/logo.png')}}" />
 
   <!-- TODO put all in angular-cli.json -->
   <link href="{{asset('packages/bootstrap/bootstrap.min.css')}}" rel="stylesheet">

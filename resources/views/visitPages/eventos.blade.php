@@ -170,7 +170,7 @@
 										<div class="clearfix"></div>
 										<i class="fa fa-search"></i>
 									</div>
-										<img src="" class="img-responsive" 
+										<img src="{{asset('copios/img/logo.png')}}" class="img-responsive" 
 										alt="Copios 2017" />
 								</a>
 								<p>Copios 2017, Lima</p>
