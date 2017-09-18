@@ -70,7 +70,9 @@
 <section id="payment">
   <div class="container-fluid">
     <h2>Formas de Pago</h2>
-    <p>El pago de la inscripción otorga el derecho de asistir a todas las sesiones técnicas y plenarias, mesas redondas.</p>
+    <p>Para realizar el pago, deposité a la Cta UNMSM 000270016684 
+      bajo el concepto de pago 144-325 en el Banco Financiero según
+      el monto de su categoría;</p>
     <div class="row">
       <div class="col-xs-12 col-md-12">
         <table class="table payment">
@@ -104,8 +106,9 @@
             </tr>
           </tbody>
         </table>
-        <p>(*) Antes del 30/09</p>
-        <p>(**) Deberán presentar su carnet universitario o algún documento que acredite su condición</p>
+        <p><small>(*) Antes del 30/09</small></p>
+        <p><small>(**) Deberán presentar su carnet universitario o algún documento que acredite su condición</small></p>
+        <p>El pago de la inscripción otorga el derecho de asistir a todas las sesiones técnicas y plenarias, mesas redondas.</p>
       </div>
     </div>
   </div>

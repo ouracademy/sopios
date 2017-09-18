@@ -43,7 +43,7 @@
                         <div class="event-name">Convocatoria</div>
                     </li>
                     <li>
-                        <div class="schedule-time">30/07 - 15/09</div>
+                        <div class="schedule-time">30/07 - 25/09</div>
                         <div class="event-name">Recepción de resúmenes</div>
                     </li>
                     <li>
@@ -55,7 +55,7 @@
                         <div class="event-name">Evaluación de resúmenes</div>
                     </li>
                     <li>
-                        <div class="schedule-time">15/08 - 17/09</div>
+                        <div class="schedule-time">15/08 - 27/09</div>
                         <div class="event-name">Notificación de aceptación de resúmenes</div>
                     </li>
                     <li>
