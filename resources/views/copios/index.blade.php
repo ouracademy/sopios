@@ -115,16 +115,21 @@
 </section>
 <section id="sponsors">
   <div class="container-fluid">
-    <h2>Organizadores</h2>
+    <h2>Sponsors</h2>
     <div class="row">
       <div class="col-xs-12 col-sm-4">
         <a href="http://matematicas.unmsm.edu.pe/" class="partner-logo-container" target="_blank">
-          <div class="partner-logo partner-larajobs"></div>
+          <img src="{{asset('copios/img/facultad-matematicas-unmsm.png')}}"/>
         </a>
       </div>
       <div class="col-xs-12 col-sm-4">
         <a href="/" class="partner-logo-container" target="_blank">
-          <div class="partner-logo partner-vehikl"></div>
+          <img src="{{asset('img/logo-sopios.png')}}"/>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a href="http://vri.unmsm.edu.pe/" class="partner-logo-container" target="_blank">
+          <img src="{{asset('copios/img/vri-unmsm.png')}}"/>
         </a>
       </div>
     </div>
