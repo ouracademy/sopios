@@ -36,10 +36,10 @@
                     <small>© COPIOS. All rights reserved.</small>
                     <small>Contáctanos en <a href="mailto:copios@sopios.org.pe">copios@sopios.org.pe</a></small>
                 </div>
-                <a href="http://businessideasgroup.com.pe/" class="credits">
+                <!-- <a href="http://businessideasgroup.com.pe/" class="credits">
                     <div class="developed-by-logo"></div>
                     <p>Desarrollado por</p>
-                </a>
+                </a> -->
             </div>
         </section>
     </div>
