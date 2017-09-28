@@ -40,7 +40,7 @@
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="speaker-item"><img src="{{asset('copios/img/alberto-gabay.jpg')}}" class="speaker-img">
             <h4><a href="">Dr. Alberto Gabay</a></h4>
-            <h5>UFRJ, Brasil</h5>
+            <h5>Universidad Federal de Rio de Janeiro - UFRJ, Brasil</h5>
           </div>
         </div>
         <div class="clearfix visible-xs"></div>
