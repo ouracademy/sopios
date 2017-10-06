@@ -106,7 +106,7 @@
             </tr>
           </tbody>
         </table>
-        <p><small>(*) Antes del 30/09</small></p>
+        <p><small>(*) Antes del 15/10</small></p>
         <p><small>(**) Deberán presentar su carnet universitario o algún documento que acredite su condición</small></p>
         <p>El pago de la inscripción otorga el derecho de asistir a todas las sesiones técnicas y plenarias, mesas redondas.</p>
       </div>
@@ -130,6 +130,11 @@
       <div class="col-xs-12 col-sm-4">
         <a href="http://vri.unmsm.edu.pe/" class="partner-logo-container" target="_blank">
           <img src="{{asset('copios/img/vri-unmsm.png')}}"/>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a href="http://www.unsa.edu.pe/" class="partner-logo-container" target="_blank">
+          <img src="{{asset('copios/img/unsa.png')}}"/>
         </a>
       </div>
     </div>
