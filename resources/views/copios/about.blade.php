@@ -37,7 +37,7 @@
         <div class="hotel-description">
           <a href="" class="hotel-name">Presidente</a>
           <div class="hotel-distance"><strong>Maria Alvarez Rivas</strong> - UNMSM</div>
-          <div class="hotel-class">malvarezr1@unmsdm.edu.pe</div>
+          <div class="hotel-class">malvarezr1@unmsm.edu.pe</div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6">

@@ -12,6 +12,7 @@
           un espacio de encuentro y discusión de investigadores, profesionales y educadores del Perú y del extranjero, y
           con ello promover el desarrollo de estas áreas, su aplicación en la industria, los servicios y el gobierno, y contribuir
           al desarrollo científico y/o tecnológico del país.</p>
+        <a href="{{asset('copios/img/flyer.jpg')}}" class="btn btn-primary" download>Ve nuestro flyer</a>
       </div>
     </div>
   </div>

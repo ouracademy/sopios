@@ -39,7 +39,7 @@
         <div class="clearfix visible-sm"></div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="speaker-item"><img src="{{asset('copios/img/alberto-gabay.jpg')}}" class="speaker-img">
-            <h4><a href="">Dr. Alberto Gabay</a></h4>
+            <h4><a href="">Dr. Alberto G. Canen</a></h4>
             <h5>Universidad Federal de Rio de Janeiro - UFRJ, Brasil</h5>
           </div>
         </div>
@@ -69,10 +69,19 @@
 </section>
 <section id="payment">
   <div class="container-fluid">
-    <h2>Formas de Pago</h2>
-    <p>Para realizar el pago, deposité a la Cta UNMSM 000270016684 
+    <h2>Registro</h2>
+    <h3 class="title-red">1. Registre sus datos</h3>
+    <div>
+      <a href="https://goo.gl/forms/GIQbjGqPhaszQ1nA3" class="btn btn-primary" target = "__blank">
+      &#x21E8; Registrate
+      </a>
+    </div>
+
+    <h3 class="title-red">2. Realize el pago</h3>
+    <div>
+    <p>Para participar en COPIOS 2017 debe registrar sus datos y depositar a la Cta UNMSM 000270016684 
       bajo el concepto de pago 144-325 en el Banco Financiero según
-      el monto de su categoría;</p>
+      el monto de su categoría:</p>
     <div class="row">
       <div class="col-xs-12 col-md-12">
         <table class="table payment">
@@ -109,6 +118,7 @@
         <p><small>(*) Antes del 15/10</small></p>
         <p><small>(**) Deberán presentar su carnet universitario o algún documento que acredite su condición</small></p>
         <p>El pago de la inscripción otorga el derecho de asistir a todas las sesiones técnicas y plenarias, mesas redondas.</p>
+    </div>
       </div>
     </div>
   </div>
