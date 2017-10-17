@@ -55,11 +55,11 @@
                         <div class="event-name">Evaluación de resúmenes</div>
                     </li>
                     <li>
-                        <div class="schedule-time">12/10 - 27/09</div>
+                        <div class="schedule-time">10/10 - 15/10</div>
                         <div class="event-name">Notificación de aceptación de resúmenes</div>
                     </li>
                     <li>
-                        <div class="schedule-time">01/09 - 30/10</div>
+                        <div class="schedule-time">01/09 - 22/10</div>
                         <div class="event-name">Recepción de resúmenes extendidos (*)</div>
                     </li>
                     <li>
