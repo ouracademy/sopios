@@ -18,10 +18,6 @@ Route::get('eventos',      ['as' => 'eventos', 'uses' => 'WelcomeController@even
 Route::get('nosotros',     ['as' => 'nosotros', 'uses' => 'WelcomeController@nosotros']);
 Route::get('unete',        ['as' => 'unete', 'uses' => 'WelcomeController@unete']);
 
-//Contact us
-Route::get('/contactenos',  ['as' => 'contactenos', 'uses' => 'AboutController@create']);
-Route::post('/contactenos', ['as' => 'contact_store', 'uses' => 'AboutController@store']);
-
 Route::group(['prefix' => 'copios/2017'], function() {
     Route::get('/', ['as' => 'copios', 'uses' => 'CopiosController@index']);
     Route::get('que-es', ['as' => 'what-is', 'uses' => 'CopiosController@about']);
