@@ -19,16 +19,14 @@
   <meta property="og:description" content="@yield('description')">
   <meta property="og:image" content="{{asset('copios/img/logo.png')}}" />
 
-  <!-- TODO put all in angular-cli.json -->
   <link href="{{asset('packages/bootstrap/bootstrap.min.css')}}" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('copios/packages/bootstrap-theme.min.css') }}">
-
   <link rel="stylesheet" type="text/css" href="{{asset('copios/css/styles.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('copios/css/fonts.css')}}">
 </head>
 <body>
-    <div id="app">
-        @include('copios.layout.header')
+    <div>
+        <div id="current-path" display="hidden" data-value="{{Request::path()}}"></div>
+        <div id="app-header"></div>
         @yield('content')
         <section class="footer">
             <div class="container-fluid">
@@ -43,7 +41,41 @@
             </div>
         </section>
     </div>
-    <script type="text/javascript" src="{{asset('packages/jquery/jquery-1.11.1.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('packages/bootstrap/bootstrap.min.js')}}"></script>
+
+    
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.31.5/react-bootstrap.min.js"></script>
+
+    <script type="text/babel">
+        const { Navbar, Nav, NavItem } = ReactBootstrap
+
+        const currentPath = document.getElementById('current-path').getAttribute('data-value')
+        
+        const AppHeader = () => 
+            <header>
+                <Navbar staticTop fixedTop fluid>
+                    <Navbar.Header>
+                        <Navbar.Toggle />
+                    </Navbar.Header>
+                    <Navbar.Collapse>
+                        <Nav activeHref={currentPath}>
+                            <NavItem href="copios/2017">Inicio</NavItem>
+                            <NavItem href="copios/2017/que-es">COPIOS 2017</NavItem>
+                            <NavItem href="copios/2017/programa">Programa</NavItem>
+                            <NavItem href="copios/2017/llamada-a-trabajos">Llamada a trabajos</NavItem>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </header>
+
+        ReactDOM.render(
+            <AppHeader/>,
+            document.getElementById('app-header')
+        );
+        
+
+    </script>
 </body>
 </html>

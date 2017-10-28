@@ -470,9 +470,9 @@ a.credits p {
     max-height: 100%;
 }
 
-.nav > li > a:hover, .nav .active {
+.nav > li > a:hover, .navbar-default .navbar-nav>.active>a{
     border-bottom: 4px solid #fb9238;
-    background-color: inherit;
+    background-color: white;
 }
 
 @media (min-width: 768px) {
